@@ -1,8 +1,8 @@
 {
-  "name": "beltline",
-  "version": "0.0.3",
-  "description": "A framework using Dristributed Data Protocol for the Semantic Web",
-  "main": "./lib/index.js",
+  "name": "beltline-local-stoarage-database",
+  "version": "0.0.1",
+  "description": "A local rdfstore to be used for Beltline.js",
+  "main": "./lib/BeltlineLocalStorageDatabase.js",
   "scripts": {
     "clean": "rimraf lib coverage",
     "test": "cross-env BABEL_ENV=commonjs mocha --require babel-core/register --recursive",
@@ -20,21 +20,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaxoncreed/beltline.js.git"
+    "url": "git+https://github.com/jaxoncreed/beltline-local-storage-database.git"
   },
   "keywords": [
-    "boilerplate",
-    "npm",
-    "module",
-    "node",
-    "javascript"
+    "beltline",
+    "rdf",
+    "database"
   ],
   "author": "Jackson Morgan <jaxoncreed@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaxoncreed/beltline.js/issues"
+    "url": "https://github.com/jaxoncreed/beltline-local-storage-database/issues"
   },
-  "homepage": "https://github.com/jaxoncreed/beltline.js#readme",
+  "homepage": "https://github.com/jaxoncreed/beltline-local-storage-database#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.1",
@@ -53,9 +51,6 @@
   },
   "dependencies": {
     "bluebird": "^3.5.2",
-    "rdfstore": "^0.9.17",
-    "socket.io": "^2.1.1",
-    "socket.io-client": "^2.1.1",
-    "uuid": "^3.3.2"
+    "rdfstore": "^0.9.17"
   }
 }
