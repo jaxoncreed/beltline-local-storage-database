@@ -1,5 +1,5 @@
 {
-  "name": "beltline-local-stoarage-database",
+  "name": "beltline-local-storage-database",
   "version": "0.0.1",
   "description": "A local rdfstore to be used for Beltline.js",
   "main": "./lib/BeltlineLocalStorageDatabase.js",

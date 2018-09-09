@@ -3,5 +3,5 @@ A javascript based rdfstore for [beltline.js](https://github.com/jaxoncreed/belt
 
 ## Installation
 ```bash
-npm install beltline --save
+npm install beltline-local-storage-database --save
 ```
